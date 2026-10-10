@@ -1,0 +1,35 @@
+stock,previous_signal_date,previous_signal,date,signal,gap_calendar_days,gap_trading_days
+Bajaj Auto,2015-12-11,Sell,2015-12-17,Buy,6,4
+Bajaj Auto,2015-12-17,Buy,2015-12-23,Sell,6,4
+Bajaj Auto,2015-12-23,Sell,2015-12-28,Buy,5,2
+Bajaj Auto,2015-12-28,Buy,2016-01-18,Sell,21,15
+Bajaj Auto,2017-04-20,Sell,2017-05-03,Buy,13,8
+Bajaj Auto,2017-12-21,Sell,2018-01-02,Buy,12,7
+Bajaj Auto,2018-01-02,Buy,2018-01-25,Sell,23,17
+Bajaj Auto,2018-01-25,Sell,2018-02-01,Buy,7,4
+Bajaj Auto,2018-02-01,Buy,2018-02-06,Sell,5,3
+Bajaj Auto,2018-05-10,Buy,2018-05-29,Sell,19,13
+Bajaj Auto,2018-05-29,Sell,2018-06-21,Buy,23,17
+Eicher Motors,2017-07-10,Sell,2017-07-28,Buy,18,14
+Hero Motocorp,2016-05-23,Sell,2016-05-31,Buy,8,6
+Hero Motocorp,2017-04-24,Sell,2017-05-08,Buy,14,9
+Hero Motocorp,2017-07-28,Sell,2017-08-07,Buy,10,6
+Hero Motocorp,2018-01-08,Buy,2018-02-06,Sell,29,20
+Infosys,2015-07-01,Buy,2015-07-08,Sell,7,5
+Infosys,2015-07-08,Sell,2015-07-27,Buy,19,13
+Infosys,2015-09-28,Sell,2015-10-01,Buy,3,3
+Infosys,2017-06-05,Buy,2017-06-30,Sell,25,18
+Infosys,2017-06-30,Sell,2017-07-24,Buy,24,16
+Infosys,2018-04-17,Sell,2018-05-07,Buy,20,13
+TCS,2015-07-21,Sell,2015-08-18,Buy,28,20
+TCS,2015-09-18,Sell,2015-10-13,Buy,25,15
+TCS,2015-10-13,Buy,2015-10-14,Sell,1,1
+TCS,2017-02-09,Sell,2017-02-13,Buy,4,2
+TCS,2017-07-05,Sell,2017-08-04,Buy,30,22
+TCS,2017-09-19,Sell,2017-10-16,Buy,27,18
+TCS,2017-12-20,Sell,2018-01-15,Buy,26,17
+TCS,2018-03-22,Sell,2018-04-20,Buy,29,19
+TVS Motors,2016-02-10,Buy,2016-02-24,Sell,14,10
+TVS Motors,2016-02-24,Sell,2016-03-23,Buy,28,19
+TVS Motors,2016-08-12,Sell,2016-08-18,Buy,6,3
+TVS Motors,2018-04-24,Buy,2018-05-17,Sell,23,16

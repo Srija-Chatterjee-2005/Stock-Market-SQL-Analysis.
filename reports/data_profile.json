@@ -1,0 +1,85 @@
+{
+  "dataset_sha256": "b208c06567ea171d53b2fcf1a5e67d6cada671e0c2ee871642cd630bc2e3ec48",
+  "stocks": [
+    {
+      "rows": 889,
+      "dates": 889,
+      "first_date": "2015-01-01",
+      "last_date": "2018-07-31",
+      "missing_delivery": 1,
+      "missing_delivery_pct": 1,
+      "invalid_close": 0,
+      "stock": "Bajaj Auto",
+      "original_file": "Bajaj Auto.csv"
+    },
+    {
+      "rows": 889,
+      "dates": 889,
+      "first_date": "2015-01-01",
+      "last_date": "2018-07-31",
+      "missing_delivery": 1,
+      "missing_delivery_pct": 1,
+      "invalid_close": 0,
+      "stock": "Eicher Motors",
+      "original_file": "Eicher Motors.csv"
+    },
+    {
+      "rows": 889,
+      "dates": 889,
+      "first_date": "2015-01-01",
+      "last_date": "2018-07-31",
+      "missing_delivery": 1,
+      "missing_delivery_pct": 1,
+      "invalid_close": 0,
+      "stock": "Hero Motocorp",
+      "original_file": "Hero Motocorp.csv"
+    },
+    {
+      "rows": 889,
+      "dates": 889,
+      "first_date": "2015-01-01",
+      "last_date": "2018-07-31",
+      "missing_delivery": 1,
+      "missing_delivery_pct": 1,
+      "invalid_close": 0,
+      "stock": "Infosys",
+      "original_file": "Infosys.csv"
+    },
+    {
+      "rows": 889,
+      "dates": 889,
+      "first_date": "2015-01-01",
+      "last_date": "2018-07-31",
+      "missing_delivery": 1,
+      "missing_delivery_pct": 1,
+      "invalid_close": 0,
+      "stock": "TCS",
+      "original_file": "TCS.csv"
+    },
+    {
+      "rows": 889,
+      "dates": 889,
+      "first_date": "2015-01-01",
+      "last_date": "2018-07-31",
+      "missing_delivery": 1,
+      "missing_delivery_pct": 1,
+      "invalid_close": 0,
+      "stock": "TVS Motors",
+      "original_file": "TVS Motors.csv"
+    }
+  ],
+  "corporate_actions": [
+    {
+      "stock": "Infosys",
+      "ex_date": "2015-06-15",
+      "factor": 2.0,
+      "source_url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2015-2016/q1/documents/q1-2016.pdf"
+    },
+    {
+      "stock": "TCS",
+      "ex_date": "2018-05-31",
+      "factor": 2.0,
+      "source_url": "https://www.tcs.com/content/dam/tcs/pdf/discover-tcs/investor-relations/faq/annual-report-18-19-intimation-record-date-agm-24.pdf"
+    }
+  ]
+}

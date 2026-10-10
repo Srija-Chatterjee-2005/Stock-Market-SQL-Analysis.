@@ -1,0 +1,49 @@
+STOCK MARKET SQL PROJECT — EXECUTED VALIDATION
+Prepared 10 October 2026
+
+Source: six supplied CSVs; 889 rows each; 5,334 total records.
+Coverage: 2015-01-01 to 2018-07-31; same date calendar across all six.
+Dataset SHA-256: b208c06567ea171d53b2fcf1a5e67d6cada671e0c2ee871642cd630bc2e3ec48
+
+AUTOMATED TESTS
+17 passed in the final run (12.09 seconds). Tests check:
+- Source row counts, duplicate keys, common calendar, missing delivery fields, OHLC consistency.
+- All numerical student-guide checkpoints, including Bajaj averages and first crossing dates.
+- Every raw and adjusted moving average, event, return, drawdown, and sample volatility against independent pandas calculations.
+- Adjustment boundaries, five changed event dates, preserved history under filtering, and chart rebasing.
+- SQL playground write/file-access/extension blocks, single-statement policy, row limits, timeout, and duplicate output columns.
+- Complete SQLite script execution twice on a fresh database.
+- Next-observed-open execution scenario and fee arithmetic using an independent hand-calculated example.
+- Streamlit pages, stock and basis controls, filter reset, lookup, SQL error handling, and editor state across navigation.
+
+MYSQL RUNTIME
+MySQL Community Server 8.0.46.
+Complete MySQL submission script executed twice with no SQL error (exit status 0).
+Checked raw/adjusted signal summary and returns reconcile with SQLite.
+Bajaj date function returns Buy for 2015-05-18, Hold for 2016-01-04, Buy for 2018-06-21.
+Adjusted summary: Bajaj 12/11; Eicher 6/7; Hero 9/9; Infosys 10/10; TCS 12/12; TVS 8/8.
+Five changed dated signal outputs reconcile between both database engines.
+
+RENDERED APPLICATION
+All six pages checked in Chromium against an actual running Streamlit server.
+SQL task 10 executed and CSV downloaded; raw counts independently checked as 56 Buy / 57 Sell.
+Date lookup visibly returned Bajaj Auto Buy on 21 June 2018.
+Scenario controls, account metrics, chart, and trade log rendered.
+720px viewport checked with sidebar collapsed.
+Actual UI screenshots are included under reports/screenshots.
+
+PDF
+10 pages. Every page rendered and visually inspected.
+Figures, tables, typography, page breaks, evidence references, and sources checked.
+
+VIDEO
+MP4 verified: 7 minutes 28 seconds; H.264 video (1600 x 1080) and AAC audio.
+Eight narrated chapters from ten actual application captures.
+All eight audio segments are present; audio level check confirms non-silent narration.
+Sample video frame visually checked. Generic narration synthesized locally.
+
+LIMITS
+The walkthrough is a narrated demonstration, not a course-portal submission.
+Public Streamlit hosting was not performed. Deployment instructions are in README.md.
+Historical price changes exclude dividends, taxes and actual transaction costs.
+Scenario fee/slippage values are explicitly modeled assumptions.
